@@ -1,0 +1,11 @@
+addi $t0, $t0, 1 
+
+addi $t1, $t1, 17 
+
+sub $t2, $t1, $t0
+
+addi $t3, $t3, 200
+
+sw $t3, 8($t2) 
+
+lw $t4, 8($t2) 
